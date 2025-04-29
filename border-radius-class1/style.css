@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.div1Child {
+    width: 0px;
+    height: 0px;
+    /* border-top: 5px solid #c446c4;
+    border-bottom: 5px solid #db7373;
+    border-left: 5px solid #73ec68;    
+    border-right: 5px solid #ddce59;
+    border-width: 200px; */
+
+    border: 100px solid transparent;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-left-color: red;
+
+}
+.div1{
+    width: 600px;
+    height: fit-content;
+    background: rgb(84, 167, 206);
+}
