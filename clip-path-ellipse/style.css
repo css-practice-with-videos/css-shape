@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{width: 100%; min-height: 100vh; display: flex; justify-content: center; align-items: center;}
+.container{
+    padding: 30px;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.ellipse1{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+    background: #9270af;
+    clip-path: ellipse(10px 50px);
+}
+.ellipse2{
+    width: 200px;
+    height: 200px;
+    background: #89e2b1;
+    clip-path: ellipse(50% 50%  at bottom center);
+}
